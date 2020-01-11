@@ -1,0 +1,575 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+  	<title>Italiano</title>
+    <meta charset="UTF-8">
+  <meta name="description" content="Italy food Italian pasta desert ">
+  <meta name="keywords" content="italy,resturant,italiano,pasta,drinks,pizza">
+  <meta name="author" content="Rana Al Hamad">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="img/onee.jpg">
+  	    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  		  <link rel="stylesheet" type="text/css" href="css/custom.css">
+        <link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.css">
+        <script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+  $("document").ready(function(){
+
+$("#me1").click(function(){
+   $("#me1").css({"border":"dashed 6px #aa151b"});
+   $("#me2").css({"border":"solid 6px #aa151b"});
+   $("#me3").css({"border":"solid 6px #aa151b"});
+   $("#me4").css({"border":"solid 6px #aa151b"});
+   $("#me5").css({"border":"solid 6px #aa151b"});
+        $("#me11").show(1000);
+        $("#me22").hide(1000);
+        $("#me33").hide(1000);
+        $("#me44").hide(1000);
+        $("#me55").hide(1000);
+      });
+
+$("#me2").click(function(){
+  $("#me2").css({"border":"dashed 6px #aa151b"});
+   $("#me1").css({"border":"solid 6px #aa151b"});
+   $("#me3").css({"border":"solid 6px #aa151b"});
+   $("#me4").css({"border":"solid 6px #aa151b"});
+   $("#me5").css({"border":"solid 6px #aa151b"});
+   
+         $("#me22").show(1000);
+         $("#me11").hide(1000);
+         $("#me33").hide(1000);
+         $("#me44").hide(1000);
+         $("#me55").hide(1000);
+      });
+
+$("#me3").click(function(){
+   $("#me3").css({"border":"dashed 6px #aa151b"});
+   $("#me1").css({"border":"solid 6px #aa151b"});
+   $("#me2").css({"border":"solid 6px #aa151b"});
+   $("#me4").css({"border":"solid 6px #aa151b"});
+   $("#me5").css({"border":"solid 6px #aa151b"});
+  
+         $("#me33").show(1000);
+         $("#me11").hide(1000);
+         $("#me22").hide(1000);
+         $("#me44").hide(1000);
+         $("#me55").hide(1000);
+      });
+$("#me4").click(function(){
+   $("#me4").css({"border":"dashed 6px #aa151b"});
+   $("#me1").css({"border":"solid 6px #aa151b"});
+   $("#me2").css({"border":"solid 6px #aa151b"});
+   $("#me3").css({"border":"solid 6px #aa151b"});
+   $("#me5").css({"border":"solid 6px #aa151b"});
+  
+         $("#me44").show(1000);
+         $("#me11").hide(1000);
+         $("#me22").hide(1000);
+         $("#me33").hide(1000);
+         $("#me55").hide(1000);
+      });
+
+$("#me5").click(function(){
+   $("#me5").css({"border":"dashed 6px #aa151b"});
+   $("#me1").css({"border":"solid 6px #aa151b"});
+   $("#me2").css({"border":"solid 6px #aa151b"});
+   $("#me3").css({"border":"solid 6px #aa151b"});
+   $("#me4").css({"border":"solid 6px #aa151b"});
+  
+         $("#me55").show(1000);
+         $("#me11").hide(1000);
+         $("#me22").hide(1000);
+         $("#me33").hide(1000);
+         $("#me44").hide(1000);
+      });
+
+
+
+  var top = $('#topp');
+    top.hide();
+  
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 2200) {
+       top.show();
+      } else {
+       top.hide();
+      }
+    });
+  
+    top.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '2200');
+    });
+  });
+
+</script>
+
+  </head>
+  <body>
+
+
+<nav class="navbar navbar-expand-md ">
+  <a class="navbar-brand" href="capstone.html"><i class="fas fa-utensils"></i> Italiano </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav  ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link pr-4"  href="capstone.html">Home <span class="sr-only">(current)</span>
+        </a>
+      </li>
+          <li class="nav-item active">
+            <a class="nav-link pr-4" href="#maindish">Menu</a>
+          </li>
+              <li class="nav-item active">
+                <a class="nav-link pr-4" href="#about">About</a>
+              </li> 
+                  <li class="nav-item active">
+                    <a class="nav-link pr-4" href="#mysocial">Contact</a>
+                  </li>
+                     <li class="nav-item active">
+                      <a class="nav-link pr-4" href="#contactus">Map</a>
+                    </li>
+                     </ul>
+  </div>
+</nav>
+
+
+
+
+  <div class="jumbotron jumbotron-fluid ">
+    <div class="container mycontainer text-center pt-4 " >
+      <h1 class="display-4">All From Italy</h1><br>
+      <p class="lead">Enjoy Our Delicious food In Italiano Restaurant</p><br>
+        
+     </div>
+     <div class="btt text-center "> 
+         <br> <button type="button" class="btn  "><b>Order Now</b></button>
+        </div>
+  </div>
+  <div class=menu>
+<h2 id="maindish"><i class="fas fa-utensils"></i> MENU</h2>
+  </div>
+
+
+
+
+
+<div class="container mt-4 ">
+  <div class="row justify-content-center">
+    <div class="col-md-2 eat " id="me1">
+    <i class="fas fa-utensils"></i> Breakfast
+    </div>
+    <div class="col-md-2 eat " id="me2">
+    <i class="fas fa-utensils"></i> Pasta
+    </div>
+    <div class="col-md-2 eat " id="me3">
+    <i class="fas fa-utensils"></i>  Pizza
+    </div> 
+    <div class="col-md-2 eat " id="me4">
+   <i class="fas fa-utensils"></i>  Drinks
+    </div> 
+    <div class="col-md-2 eat " id="me5">
+   <i class="fas fa-utensils"></i>  Desserts
+    </div>
+  
+  </div>
+</div>
+
+
+
+
+<div class=" container mycontainer2 "  id="me11">
+  <div class="row ">
+
+    <div class="col-md-4">
+     <figure class="snip0016">
+      <img src="img/break1.jpg" alt="classic omlette" class="men">  
+          <figcaption> <h2> Classic Omlette  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+     </div>
+
+    <div class="col-md-4">
+       <figure class="snip0016">
+      <img src="img/break2.jpg" alt="pancakes with butter and syrup" class="men">
+      <figcaption> <h2> Pancakes with butter and syrup </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+    </div>
+
+
+    <div class="col-md-4">
+       <figure class="snip0016">
+        <img src="img/break3.jpg" alt="blgian waffle with ice cream" class="men">
+        <figcaption> <h2> Blgian waffle with ice cream </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div>
+
+
+   <div class="row">
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/break4.jpg" alt="french toast" class="men">
+        <figcaption> <h2>French toast </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+      <img src="img/break5.jpg" alt="nutella" class="men">
+      <figcaption> <h2>Nutella crepe</h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure></div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/break6.jpg" alt="turkey roast beef" class="men">
+        <figcaption> <h2> Turkey roast beef  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure></div>
+  </div> 
+  </div>
+
+<div class=" container mycontainer2 " style="display: none" id="me22">
+  <div class="row ">
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/pasta1.jpg" alt="penne chicken broccoli" class="men">
+      <figcaption> <h2> Penne chicken broccoli </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure></div>
+
+    <div class="col-md-4">
+      <figure class="snip0016"><img src="img/pasta2.jpg" alt="fettuccine pollo" class="men">
+        <figcaption> <h2> Fettuccine pollo </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016"><img src="img/pasta3.jpg" alt="lasgana" class="men">
+        <figcaption> <h2> Lasgana </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div>
+
+   <div class="row">
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/pasta4.jpg" alt="spaggitti bolognese" class="men">
+        <figcaption> <h2> Spaggitti bolognese </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/pasta5.jpg" alt="fettuccine alfunghi" class="men">
+        <figcaption> <h2> Fettuccine alfunghi  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/pasta6.jpg" alt="penne arabiata" class="men">
+        <figcaption> <h2> Penne arabiata  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div> 
+  </div>
+
+<div class=" container mycontainer2 " style="display: none" id="me33">
+  <div class="row ">
+    <div class="col-md-4">
+      <figure class="snip0016"><img src="img/pizza1.jpg" alt="salami pizza" class="men">
+       <figcaption> <h2> Salami pizza  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016"><img src="img/pizza2.jpg" alt="bbq pizza" class="men">
+       <figcaption> <h2> Bbq pizza  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/pizza3.jpg" alt="house pizza" class="men">
+         <figcaption> <h2> House pizza  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div>
+
+   <div class="row">
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/pizza4.jpg" alt="quattro stagioni" class="men">
+         <figcaption> <h2> Quattro stagioni </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/pizza5.jpg" alt="margaritta " class="men">
+         <figcaption> <h2> Margaritta  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/pizza6.jpg" alt="vegetariana" class="men"> 
+        <figcaption> <h2> Vegetariana  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div> 
+  </div>
+
+
+
+
+
+
+<div class=" container mycontainer2 " style="display: none" id="me44">
+  <div class="row ">
+    <div class="col-md-4">
+      <figure class="snip0016"><img src="img/drink1.jpg" alt="cappacino hazelnut" class="men"> <figcaption> <h2> Cappacino hazelnut </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/drink2.jpg" alt="hot choclate marshmellow" class="men"> 
+        <figcaption> <h2> Hot choclate marshmellow </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/drink3.jpg" alt="mocha" class="men">
+         <figcaption><h2> Mocha  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div>
+
+   <div class="row">
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/drink4.jpg" alt="le grand" class="men">
+         <figcaption> <h2> Le grand </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/drink5.jpg" alt="four seasons" class="men"> 
+        <figcaption> <h2> Four seasons</h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/drink6.jpg" alt="blueberry delight" class="men"> 
+        <figcaption> <h2> Blueberry delight  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div> 
+  </div>
+
+
+
+<a id="topp"><i class="fas fa-arrow-up"></i></a>
+
+ 
+  <div class=" container mycontainer2 " style="display: none" id="me55">
+  <div class="row ">
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/de1.jpg" alt="apple pie" class="men">
+        <figcaption> <h2> Apple pie  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/de2.jpg" alt="brownie" class="men">
+        <figcaption> <h2> Brownie  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/de3.jpg" alt="lazy cake" class="men">
+        <figcaption> <h2> Lazy cake  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div>
+
+   <div class="row">
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/de4.jpg" alt="blueberry cheesecake" class="men">
+        <figcaption> <h2> Blueberry cheesecake  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/de5.jpg" alt="choclate mousse" class="men">
+        <figcaption> <h2> Choclate mousse</h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+
+    <div class="col-md-4">
+      <figure class="snip0016">
+        <img src="img/de6.jpg" alt="lutes cheesecake" class="men">
+        <figcaption> <h2> Lutes cheesecake  </h2>
+            <a href="#"></a>
+          </figcaption>     
+        </figure>
+      </div>
+  </div> 
+  </div>
+ 
+      <div class="menu">
+<h2 id="about"> <i class="fas fa-utensils"></i>  ABOUT US</h2>
+  </div>
+
+    </div>
+<div class="container-fluid justify-content-center " id="aboutt" >
+  <div class="row justify-content-between ">
+   
+    <div class="col-md-5 mycol ">
+      <h2> Italiano...</h2><br>
+      <p>Free From Italy has sourced genuine Italian foods that quality conscious Italians themselves enjoy back in Italy and can <br>now be enjoyed anywhere. Free From Italy have a long<br> history of working with specialist Italian food<br> companies and have focused on bringing <br>the best products we can find in <br>Italy to the UK and elsewhere <br>all under one umbrella. <i class="fas fa-heart"></i></p>
+    
+    </div>
+  </div>
+</div>
+
+     <div class="menu mt-5">
+<h2 id="contactus"> <i class="fas fa-utensils"></i> CONTACT US</h2>
+  </div>
+
+<div class="container-fluid text-center pt-5 ">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27076.134122330983!2d35.892965041883095!3d31.97400399817711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151ca07174125973%3A0x6853dfe334a6f144!2sAbdali%20Mall!5e0!3m2!1sen!2sjo!4v1575893449400!5m2!1sen!2sjo" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+</div>
+
+
+
+  <div class="container mysocial text-center mt-5" id="mysocial">
+  <div class="row">
+    <div class="col-md">
+  <a href="https://www.facebook.com/FreeFromItaly/"  target="_blank"> <img src="img/fb.png"  class="soc"></a>
+   <a href="https://www.instagram.com/freefromitaly/?hl=en" target="_blank"> <img src="img/ins.jpg" class="soc"></a>
+    <a href="https://twitter.com/freefromitaly" target="_blank"> <img src="img/twe.png" class="soc"></a>
+    <a href="https://www.pinterest.co.uk/freefromitaly/" target="_blank"> <img src="img/pi.png" class="soc"></a>
+    </div>
+  </div>
+</div>
+<div class="container-fluid myfoooter text-center  ">
+  <div class="row">
+    <div class="col-md-4 text-justify">
+     <h4 class="bord"><i class="fas fa-utensils"></i> Italiano</h4>
+     <p>You will eat<br> The best italian <BR>food in the whole town <br> <i class="fas fa-heart"></i> </p>
+    </div>
+
+    <div class="col-md-4 text-justify">
+      <h5 class="bord"> <i class="fas fa-utensils"></i> Menu</h5>
+  <div class="row">
+    <div class="col-md-6"><p class="foot">BREAKFAST</p></div> 
+    <div class="col-md-6"><p class="foot">PASTA</p></div> 
+    <div class="col-md-6"><p class="foot">PIZZA</p> </div>
+    <div class="col-md-6"><p class="foot">DESSERTS</p> </div>
+    <div class="col-md-6"><p class="foot">DRINKS</p> </div>
+  </div>
+    </div>
+    <div class="col-md-4 text-justify">
+      <h5 class="bord"> <i class="fas fa-utensils"></i> Contact Info</h5>
+      <div class="row mb-2">
+      <div class="col-md-2">
+        <i class="fas fa-map-marker"></i> </div>
+        <div class="col-md-10">
+      AL-Abdali Mall -Second Floor
+  </div>
+</div>
+    <div class="row mb-2">
+     <div class="col-md-2">
+     
+      <i class="fas fa-phone-alt"></i></div>
+       <div class="col-md-10">+962788260960</div>
+</div>
+<div class="row mb-2">
+     <div class="col-md-2"> 
+      <i class="fas fa-envelope-open"></i></div>
+    <div class="col-md-10" >italiano@info.com
+</div> </div>
+<div class="row mb-2">
+     <div class="col-md-2"><i class="far fa-clock ab"></i></div> 
+    <div class="col-md-10"> All WeekDay 10:00am - 2:00pm</div>
+    </div>
+
+  </div>
+</div> 
+
+<footer>
+  <div class="row last text-center ">
+    <div class="col-md-12"><p>Copyright ©2019 All rights reserved | This template is made  by Rana   <i class="fas fa-heart"></i> </p> </div>
+
+</footer>
+  </body>
+  </html>
